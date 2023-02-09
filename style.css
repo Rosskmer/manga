@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inscription{
+    margin-top: 100px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #45a049;
+}
+
+h1{
+    align-items: center;
+    color: #fff;
+}
+
+header{
+    background-color: #84c26b;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main{
+    text-align: center;
+    padding: 20px;
+}
+
+main h2{
+    margin: 50px 0;
+    font-size: 2em;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    color: #333;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav li{
+        margin: 10px 0;
+    }
+    main h2{
+        font-size: 1.5em;
+    }
+    form    {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+
+
+/*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: #000;
+}
+
+/***************************************NAVBAR***************************/
+
+/*header{
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav li{
+    
+    margin: 30px;
+    justify-content:space-between;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #000;
+    font-weight: bold;
+}
+
+/***************************************MENU PRINCIPALE*********************************/
+
+/*main{
+    color: #fff;
+}
+
+main h2{
+    position: absolute;
+    bottom: 450px;
+    left: 550px;
+}
+
+/********************************FORMULAIRE********************************/
+
+/*section{
+    margin-bottom: 100px;
+    border: none;
+}
+
+
+form{
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+    text-align: center;
+    margin-top: 100px;
+    border: none;
+}
+
+
+input[type="text"]{
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+input[type="submit"]{
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 100px;
+    border: none;
+}
+
+/*********************************************FOOTER**************************/
+
+/*footer{
+    margin: 300px;
+    background-color: #fff;
+}
+
+p{
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    margin-top: 100px;
+}
+
+/********************************RESPONSIVE*****************************************/
+
+/*@media screen and(max-width: 780px) {
+    /* styles pour les écrans de 780px ou moins */
+    /*nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav li {
+        margin: 20px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    main h2 {
+        font-size: 18px;
+    }
+    form {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        position: absolute;
+        right: 80px;
+    }
+    input[type="text"],
+    input[type="submit"] {
+        width: 100%;
+    }
+    footer p {
+        text-align: center;
+    }
+}*/
